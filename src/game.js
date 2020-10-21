@@ -1,7 +1,7 @@
 import React, {useState , useEffect} from 'react'
 import Board from './board.js'
 
-function Game() {
+const Game = () => {
     const [isWin, setIsWin] = useState(false);
     const [squares, setSquares] = useState([Array(9).fill]);
     const [xIsNext, setxIsNext] = useState(true);

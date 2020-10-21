@@ -1,6 +1,6 @@
 import React from 'react'
 import Square from './square.js'
-function Board(props){
+const Board = props =>{
   
 
     const rederSquare = i =>{
